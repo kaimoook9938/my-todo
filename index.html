@@ -6,58 +6,64 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f9f9f9;
+      background: #fff; /* ขาวล้วน */
       display: flex;
       justify-content: center;
       align-items: center;
       min-height: 100vh;
+      color: #000; /* ตัวหนังสือสีดำ */
     }
     .container {
-      background: white;
+      background: #fff;
       padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      border: 1px solid #ccc;
       width: 400px;
     }
     h1 {
       text-align: center;
-      color: #2563eb;
+      font-size: 1.5em;
+      margin-bottom: 20px;
     }
     form {
       display: flex;
-      gap: 8px;
-      margin-bottom: 20px;
+      gap: 6px;
+      margin-bottom: 15px;
     }
     input {
       flex: 1;
-      padding: 8px;
-      border: 1px solid #ddd;
-      border-radius: 6px;
+      padding: 6px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
     }
     button {
-      padding: 8px 12px;
-      border: none;
-      border-radius: 6px;
+      padding: 6px 10px;
+      border: 1px solid #333;
+      border-radius: 4px;
       cursor: pointer;
-      background: #2563eb;
-      color: white;
+      background: #fff;
+      color: #000;
+    }
+    button:hover {
+      background: #f0f0f0;
     }
     ul {
       list-style: none;
       padding: 0;
     }
     li {
-      background: #f1f5f9;
-      margin-bottom: 8px;
-      padding: 10px;
-      border-radius: 6px;
+      background: #fafafa;
+      border: 1px solid #ddd;
+      margin-bottom: 6px;
+      padding: 8px;
+      border-radius: 4px;
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
     .done {
       text-decoration: line-through;
-      color: gray;
+      color: #666;
     }
   </style>
 </head>
